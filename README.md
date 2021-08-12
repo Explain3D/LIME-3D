@@ -6,3 +6,14 @@ Usage
 --------------
 After installing LIME, copy the scripts in lime_script/ into lime/ (lime_base will be replaced)
 
+Move modelnet40_test_lime.txt to data/modelnet40_normal_resampled/ or run sample_test_data.py to sample user-defined test set (this py file should also be moved into data/modelnet40_normal_resampled/).
+
+Visualize the explanation for one instance:
+
+    python LIME_single.py
+
+Evaluate a batch of explanations:
+
+    python test_batch_LIME.py
+
+<img src="https://github.com/Explain3D/LIME-3D/blob/main/pic/exp.png?raw=true" width="500px">
