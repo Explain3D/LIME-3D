@@ -1,7 +1,4 @@
-"""
-Author: Benny
-Date: Nov 2019
-"""
+
 from data_utils.ModelNetDataLoader import ModelNetDataLoader
 import argparse
 import numpy as np
